@@ -13,7 +13,7 @@ public class Numberpyramid {
 
             // spaces
             for (int j = 1;j<=n-i; j++) {
-                System.out.println(" ");
+                System.out.print(" ");
             }
             for (int j = 1; j <= i; j++) {
                 System.out.print(i+" ");
