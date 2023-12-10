@@ -11,7 +11,7 @@ public class Hollowrectangle {
         // int n = sc.nextInt();
         // int m = sc.nextInt();
 
-        int n=4;
+        int n=5;
         int m=5;
         // outer loop
         for (int i = 1; i <= n; i++) {
@@ -23,9 +23,9 @@ public class Hollowrectangle {
                 } else {
                     System.out.print(" ");
                 }
-                System.out.println();
-            }
-        }
+               
+            } System.out.println();
+        } System.out.println();
         
     }
 }

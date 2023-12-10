@@ -19,12 +19,11 @@ public class Butterfly {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
-            System.out.println();
+            // System.out.println();
         }
 
         // SPACES FOR UPPER HALF PATTERN
-        int space = 2 * (n - 1);
-        for (int j = 1; j <= 2 * (n - 1); j++) {
+        for (int j = 1; j <= 2 * (n - j); j++) {
             System.out.print(" ");
         }
         System.out.println();
