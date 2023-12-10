@@ -7,31 +7,33 @@
 
 public class PalindronicPattern {
     public static void main(String[] args) {
-        int n=5;
+        int n = 5;
 
         // loop for row
-        for(int i=1;i<=n;i++){
+        for (int i = 1; i <= n; i++) {
 
-            //SPACES
-            for(int j=1;j<=n-i;j++){
+            // SPACES
+            for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
-            }System.out.println();
+            }
+            // System.out.println();
 
-
-             // loop for colomn
-
+            // loop for colomn
 
             // first half triangle
-            for(int j=i;j<=1;j--){
+            for (int j = i; j <= 1; j--) {
                 System.out.print(j);
+
             }
+            System.out.println();
 
             // second half triangle
-            for(int j=2;j<=i;j++){
+            for (int j = 2; j <= i; j++) {
                 System.out.print(j);
             }
-           System.out.println();
+            System.out.println();
 
         }
+        System.out.println();
     }
 }
