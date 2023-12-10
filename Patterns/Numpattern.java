@@ -3,7 +3,7 @@
 // 4 5 6
 // 7 8 9 10
 // 11 12 13 14
-public class Numpyd {
+public class Numpattern {
     public static void main(String[] args) {
         int n=5;
         int number=1;
