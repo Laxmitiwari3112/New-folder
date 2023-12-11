@@ -26,11 +26,11 @@ public class Butterfly {
         for (int j = 1; j <= 2 * (n - j); j++) {
             System.out.print(" ");
         }
-        System.out.println();
+       // System.out.println();
 
         // loop for upper second half
         // loop for row
-        for (int i = 1; i <= n; i++) {
+       // for (int i = 1; i <= n; i++) {
             // loop for colomn
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
@@ -40,13 +40,13 @@ public class Butterfly {
 
         // loop for first lower half
         // loop for row
-        for (int i = n; i >= 1; i--) {
-            // loop for colomn
-            for (int j = 1; j <= i; j++) {
-                System.out.print("*");
-            }
-            // System.out.println();
-        }
+        // for (int i = n; i >= 1; i--) {
+        //     // loop for colomn
+        //     for (int j = 1; j <= i; j++) {
+        //         System.out.print("*");
+        //     }
+        //     // System.out.println();
+        // }
 
     }
 }
