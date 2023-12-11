@@ -12,7 +12,7 @@ public class FunctionsSum {
         int b=sc.nextInt();
 
         int sum=calculateSum(a,b);
-        System.out.print("Sum of given number:");
-System.out.println(sum);
+       // System.out.print("Sum of given number:");
+       System.out.println("Sum of given integers:"+sum);
     }
 }
