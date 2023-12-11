@@ -1,4 +1,6 @@
 import java.util.*;
+
+// sum of two integer (a,b given by user)
 public class FunctionsSum {
     public static int calculateSum(int a,int b){
         int sum=a+b;
