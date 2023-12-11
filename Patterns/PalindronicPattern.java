@@ -21,11 +21,10 @@ public class PalindronicPattern {
             // loop for colomn
 
             // first half triangle
-            for (int j = i; j <= 1; j--) {
+            for (int j = i; j >= 1; j--) {
                 System.out.print(j);
 
             }
-            System.out.println();
 
             // second half triangle
             for (int j = 2; j <= i; j++) {

@@ -16,7 +16,7 @@ public class HollowRhombus {
             for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
             }
-            System.out.println();
+            // System.out.println();
 
             // loop for colomn
             for (int j = 1; j <= n; j++) {
@@ -28,6 +28,7 @@ public class HollowRhombus {
                     System.out.print(" ");
                 }
             }
+            System.out.println();
         }
         System.out.println();
     }
