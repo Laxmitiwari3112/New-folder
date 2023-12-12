@@ -12,8 +12,8 @@ public class Sumofoddnum {
             
             //output
             if(i%2!=0){
-            // int sum=i;
              int sum=i;
+             int sum=sum+i;
              System.out.println(sum);
             }
             else{
