@@ -55,6 +55,6 @@ public class Hollowbutterfly {
                 }
                
             } System.out.println();
-        }
+        }//System.out.println();
     }
 }
