@@ -32,7 +32,7 @@ public class Butterfly {
         // loop for row
        // for (int i = 1; i <= n; i++) {
             // loop for colomn
-            for (int j = 1; j <= i; j++) {
+            for (int j = 1; j >= i; j++) {
                 System.out.print("*");
             }
             System.out.println();
@@ -48,5 +48,5 @@ public class Butterfly {
         //     // System.out.println();
         // }
 
-    }
+    
 }
