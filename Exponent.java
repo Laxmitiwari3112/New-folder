@@ -7,6 +7,7 @@ public class Exponent {
         int n=sc.nextInt();
         System.out.print("Enter base=");
         int x=sc.nextInt();
+        pow=x*n;
 
        //
         System.out.print("VALUE="+val);

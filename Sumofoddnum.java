@@ -2,6 +2,12 @@ import java.util.*;
 
 // print sum of odd num frm 1 to n
 public class Sumofoddnum {
+    public static int calculateSumOdd(int n){
+        int sum=0;
+        int oddsum=sum+i;
+        sum++;
+    }
+}
     public static void main(String[] args) {
 
         // n given by user
@@ -12,9 +18,10 @@ public class Sumofoddnum {
             
             //output
             if(i%2!=0){
-             int sum=i;
-             int sum=sum+i;
-             System.out.println(sum);
+            //  int sum=i;
+            //  int sum=sum+i;
+            int nodd=calculateSumOdd(int n);
+             System.out.println(nodd);
             }
             else{
                 System.out.println();
@@ -22,4 +29,4 @@ public class Sumofoddnum {
         }
 
     }
-}
+

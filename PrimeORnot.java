@@ -11,7 +11,7 @@ public class PrimeORnot {
 
         // check prime or not
         for(int i=1;i<=n;i++){
-        if (n % n== 1||n%i==i) {
+        if (n % i== 1||n%i==n) {
             System.out.println("Prime number");
         } else {
             System.out.println(" NOT prime number");
