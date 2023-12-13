@@ -8,10 +8,10 @@ public class circumference {
         float n = sc.nextInt();
         // int circumference=2*n*(22/7);
         float PI =22/7 ;
-        float circumference = 2 * n * PI;
+        float circumference = (float)(2 * n * PI);
 
-        // System.out.print("Circumference="+circumference);
-        System.out.println(2 * n * PI);
+     System.out.print("Circumference="+circumference);
+       // System.out.println(2 * n * PI);
 
     }
 }
