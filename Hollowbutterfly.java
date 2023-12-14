@@ -22,7 +22,7 @@ public class Hollowbutterfly {
             for(int j=1;j<=i;j++){
                 
                 //STARS
-                if(j==1||i==j){
+                if(j==1||j==i){
                 System.out.print("*");}
                 else{
                     System.out.print(" ");
@@ -32,10 +32,10 @@ public class Hollowbutterfly {
         }
 
         //SPACE BTW BOTH HALF(upper)
-        // int space=2*(n-i);
-        // for(int j=1;j<=2*(n-i);j++){
-        //     System.out.println(" ");
-        // }
+         //int space=2*(n-i);
+         for(int j=1;j<=2*(n-j);j++){
+             System.out.println(" ");
+         }
         // System.out.println();
 
         //
@@ -47,14 +47,14 @@ public class Hollowbutterfly {
             for(int j=1;j<=i;j++){
                 
                 //STARS
-              if((i+j)%i==i||j==1||j==n)
+              if(j==1||j==i)
                 {
                 System.out.print("*");}
                 else{
-                    System.out.print(" ");
+                    System.out.println(" ");
                 }
                
-            } System.out.println();
+            } //System.out.println();
         }//System.out.println();
     }
 }
