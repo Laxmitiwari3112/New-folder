@@ -7,7 +7,7 @@ public class Sumofoddnum {
        for(int i=1;i<=n;i++){
          if(n%2!=0){
         
-          int sum=n+i;
+         int oddsum=oddsum+i;
         }
         return n;
     }}
@@ -18,6 +18,7 @@ public class Sumofoddnum {
         System.out.print("Enter terms n=");
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
+        int oddsum=0;
         int oddSum=SumofOddNUMS(n);
 
         for(int i=1;i<=n;i++){
