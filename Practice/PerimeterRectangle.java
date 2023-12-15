@@ -9,7 +9,7 @@ public class PerimeterRectangle {
     int l=sc.nextInt();//length 
     int b=sc.nextInt();//breadth
 
-    int perimeter=2*l*b;
+    int perimeter=2*(l+b);
     System.out.print("PERMETER OF RECTANGLE="+perimeter);
     }
 }
