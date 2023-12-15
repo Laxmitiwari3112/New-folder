@@ -1,5 +1,5 @@
 import java.util.*;
-public class Sumofoddnterm {
+public class Sumofoddnum{
     public static void main(String[] args) {
         System.out.print("Enter terms n=");
         Scanner sc=new Scanner(System.in);
