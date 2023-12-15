@@ -15,7 +15,7 @@ public class PrimeORnot {
         } else {
             for (int i = 2; i <= m; i++) {
                 if (n % i == 0) {
-                    System.out.println(n + " is NOT A PROME NUMBER");
+                    System.out.println(n + " is NOT A PRIME NUMBER");
                     flag = 1;
                     break;
                 }

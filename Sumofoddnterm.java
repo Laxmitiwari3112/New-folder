@@ -11,11 +11,13 @@ public class Sumofoddnterm {
             if(n%2!=0){
                 oddsum=oddsum+i;
             }
-            else {
-                evensum=evensum+i;
-            }
+            // else {
+            //     evensum=evensum+i;
+            // }
         }
-        System.out.print("The Sum of odd numbers till n terms are="+oddsum);
+        System.out.println("The Sum of odd numbers till n terms are="+oddsum);
+        // System.out.print("The Sum of even numbers till n terms are="+evensum);
+
     }
     
 }

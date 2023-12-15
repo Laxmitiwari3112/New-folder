@@ -23,7 +23,8 @@ public class circumference {
 
  public static void main(String[] args){
     Scanner sc=new Scanner(System.in);
+    float PI = 22 / 7;
  float n=sc.nextFloat();
-   float Circumference=calculateCircumference(float n);
+   float Circumference=calculateCircumference(float n,PI);
    System.out.println("Circimference of CIRCLE is="+ Circumference);
 }
