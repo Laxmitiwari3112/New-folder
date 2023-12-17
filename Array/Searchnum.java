@@ -1,6 +1,8 @@
 package Array;
 import java.util.*;
-public class Seachnum {
+
+//seach key element in an aaray
+public class Searchnum {
     public static void main(String[] args) {
         System.out.print("INPUT SIZE OF ARRAY=");
         Scanner sc=new Scanner(System.in);
@@ -16,6 +18,7 @@ public class Seachnum {
         System.out.print("element to search=");
         int x=sc.nextInt();
 
+        //output
         for(int i=0;i<size;i++){
             if(num[i]==x){
                 System.out.println("Number "+x+" is at position "+(i+1));
