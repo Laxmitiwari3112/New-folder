@@ -9,14 +9,19 @@ import java.util.*;
 public class Addingstring {
 
     public static void main(String[] args) {
+
+        // declaration
+        // concatenation(addition of two string)
         String firstname = "Tony";
         String lastname = "Stark";
         String fullname = firstname + " " + lastname;
 
         System.out.println(fullname);
+        // print length of string
         System.out.println(fullname.length());// no.of element=lenght of that string
 
         // chaarAT
+        // access characters of a string
         for (int i = 0; i < fullname.length(); i++) {
             System.out.println(fullname.charAt(i));
         }
@@ -44,7 +49,7 @@ public class Addingstring {
         System.out.println(name);
 
         String nameA = "TonyStark";
-        String nameB = nameA.substring(4);//by default end index is as last index
+        String nameB = nameA.substring(4);// by default end index is as last index
         System.out.println(nameB);
     }
 }
