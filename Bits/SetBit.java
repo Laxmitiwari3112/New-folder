@@ -10,6 +10,8 @@ public class SetBit {
 
     //OR operator use 
     int newNumber=BitMask|n;
+
+    //output (DECIMAL VALUES)
     System.out.println(newNumber);
    } 
 }
