@@ -9,11 +9,12 @@ public class ReverseString {
         //loop for reversing
         for(int i=0;i<str1.length()/2;i++){
             int front =i;
-            int back=str1.length()-i-1;
+            int back=str1.length()-i-1;//for h at 0 will bw filled at 5-0-1=4 index
 
-            char frontChar=str1.charAt(front);
-            char backChar=str1.charAt(back);
+            char frontChar=str1.charAt(front);//front
+            char backChar=str1.charAt(back);//back 
 
+            //for reversing replace front to back and back to front
             str1.setCharAt(front,backChar);
             str1.setCharAt(back,frontChar);
 
