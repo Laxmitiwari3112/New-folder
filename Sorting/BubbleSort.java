@@ -25,6 +25,7 @@ public class BubbleSort {
             }
         }
         // output
+        System.out.println("SORTED ARRAY BY BUBBLE SORTING");
         printArray(arr);
     }
 }
