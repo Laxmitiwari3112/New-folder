@@ -1,5 +1,6 @@
 package Sorting;
 
+//time complexity of this code = O(n^2)
 //BUBBLE SORT : Pass(loop)=n-1 , traversing in each paas=n
 public class BubbleSort {
     public static void printArray(int arr[]) {
