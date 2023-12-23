@@ -1,7 +1,7 @@
 package Recursion;
 
 //print numbers from 5 to 1
-public class PrintNumb {
+public class PrintNumbdeOdr {
     public static void printNum(int n) {
 
         // BASE CASE
@@ -9,7 +9,7 @@ public class PrintNumb {
             return;
         }
 
-        // output
+        // print
         System.out.println(n);
 
         // RECURSION
