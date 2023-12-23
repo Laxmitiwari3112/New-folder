@@ -8,12 +8,15 @@ public class SumOfNnum {
         // BASE CASE
         if (i == n) {
             sum += i;
+            // OUTPUT
             System.out.println(sum);
             return;
         }
 
         // recursion
         sum = sum + i;
+
+        // RECURSION
         printSum(i + 1, n, sum);
     }
 
@@ -25,7 +28,7 @@ public class SumOfNnum {
         int i = 1;
         int sum = 0;
 
-        // output
+        // FUNCTION CALL
         System.out.print("Sum of n natural numbers are=");
         printSum(i, n, sum);
     }

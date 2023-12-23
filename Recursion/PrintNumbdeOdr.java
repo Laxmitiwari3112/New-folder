@@ -1,6 +1,6 @@
 package Recursion;
 
-//print numbers from 5 to 1
+//print numbers from 5 to 1 DECREASING ORDER
 public class PrintNumbdeOdr {
     public static void printNum(int n) {
 
@@ -13,6 +13,7 @@ public class PrintNumbdeOdr {
         System.out.println(n);
 
         // RECURSION
+        //output
         printNum(n - 1);
 
     }
@@ -21,6 +22,8 @@ public class PrintNumbdeOdr {
 
         // numbers
         int n = 5;
+
+        //function call
         printNum(n); // n=5
     }
 }

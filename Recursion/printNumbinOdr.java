@@ -1,6 +1,6 @@
 package Recursion;
 
-//print number from 1 to 5
+//print number from 1 to 5 INCREASING ORDER
 public class printNumbinOdr {
     public static void printNum(int n) {
         // BASE CASE
@@ -12,6 +12,7 @@ public class printNumbinOdr {
         System.out.println(n);
 
         // RECUSRION
+        //output
         printNum(n + 1);
     }
 
@@ -19,7 +20,7 @@ public class printNumbinOdr {
         // numbers
         int n = 1;
 
-        // OUTPUT
+        // function call
         printNum(n);
     }
 }
