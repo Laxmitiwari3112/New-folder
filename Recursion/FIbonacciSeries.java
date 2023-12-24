@@ -18,15 +18,16 @@ public class FIbonacciSeries {
     }
 
     public static void main(String[] args) {
-        int a = 0;
-        int b = 1;
-        System.out.println(a);
-        System.out.println(b);
 
         // input
         Scanner sc = new Scanner(System.in);
         System.out.print("enter number n=");
         int n = sc.nextInt();
+
+        int a = 0;
+        int b = 1;
+        System.out.println(a);
+        System.out.println(b);
 
         // function call
         printFib(a, b, n - 2);
