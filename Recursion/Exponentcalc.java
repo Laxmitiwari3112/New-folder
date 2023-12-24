@@ -2,10 +2,9 @@ package Recursion;
 
 import java.util.*;
 
-// print x^n where x =base and n=power(STACK HEIGHT =n)
-public class Exponent {
-    public static int calulatePower(int x, int n) {
-
+//print exponent x^n (STACK HEIGHT = LOGn)
+public class Exponentcalc {
+    public static int calculatePower(int x, int n) {
         // BASE CASE
         if (n == 0) {
             return 1;
@@ -13,9 +12,14 @@ public class Exponent {
         if (x == 1) {
             return 0;
         }
-        int xPowernm1 = calulatePower(x, n - 1);
-        int xPowerN = x * xPowernm1;
-        return xPowerN;
+
+        // if n is even
+        if (n % 2 == 0) {
+            return calculatePower(x, n / 2) * calculatePower(x, n / 2);
+        } else {
+            // nis odd
+            return calculatePower(x, n / 2) * calculatePower(x, n / 2) * x;
+        }
     }
 
     public static void main(String[] args) {
@@ -27,7 +31,7 @@ public class Exponent {
         System.out.print("Enter power n=");
         int n = sc.nextInt();// power
 
-        int answer = calulatePower(x, n);
+        int answer = calculatePower(x, n);
         System.out.print("Obtained result=");
         System.out.println(answer);
 
