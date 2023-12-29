@@ -50,6 +50,8 @@ public class Mergesort {
 
         // array
         int arr[] = { 6, 3, 9, 5, 2, 8 };
+
+        System.out.print("Original array= "+arr);
         // length of arr : total number of elements use
         int n = arr.length;
 
