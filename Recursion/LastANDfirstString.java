@@ -1,5 +1,5 @@
 package Recursion;
-
+// TIME COMPLEXITY : O(N)
 //find the first and last occurance of element in string
 public class LastANDfirstString {
     //first and last are constant : create static varibale
