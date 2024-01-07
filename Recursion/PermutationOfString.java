@@ -1,5 +1,6 @@
 package Recursion;
 
+//TIME COMPLEXITY : O(N!)
 //print all permutations of string
 public class PermutationOfString {
 
