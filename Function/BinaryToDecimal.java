@@ -1,9 +1,11 @@
 package Function;
+
 import java.util.*;
+
 //CODE : Binary To Decimal
 public class BinaryToDecimal {
     public static void binToDec(int binNum) {
-        int myNum=binNum;
+        int myNum = binNum;
         int pow = 0;
         int decNum = 0;
 
@@ -13,15 +15,15 @@ public class BinaryToDecimal {
             // (base,pow) Math.pow(base,pow) return double value so we type cast into int
 
             pow++;
-            binNum=binNum/10;
+            binNum = binNum / 10;
         }
-        System.out.println("decimal of "+myNum+" = "+decNum);
+        System.out.println("decimal of " + myNum + " = " + decNum);
     }
 
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter binary number = ");
-        int n=sc.nextInt();
+        int n = sc.nextInt();
 
         binToDec(n);
     }
