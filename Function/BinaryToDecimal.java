@@ -13,6 +13,7 @@ public class BinaryToDecimal {
             int lastDigit = binNum % 10;// remainder=lastdigit
             decNum = decNum + (lastDigit * (int) Math.pow(2, pow));
             // (base,pow) Math.pow(base,pow) return double value so we type cast into int
+            //decNum = decNum + rem* 2^n
 
             pow++;
             binNum = binNum / 10;
