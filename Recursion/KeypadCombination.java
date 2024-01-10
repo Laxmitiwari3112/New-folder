@@ -2,7 +2,7 @@ package Recursion;
 
 //TIME COMPLEXITY : O(4^n)   as here max choice=4 pqrs
 //print combinations are 0->".",1->"abc",2->"def",3->"ghi",4->"jkl",5->"mno",6->"pqrs",7->"tu",8->"vwx",9->"yz"
-public class PrintKeypadCombination {
+public class KeypadCombination {
     public static String[] keypad = { ".", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tu", "vwx", "yz" };
 
     // function definition

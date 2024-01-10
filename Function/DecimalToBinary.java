@@ -10,9 +10,9 @@ public class DecimalToBinary {
         int myNum = n;
 
         while (n > 0) {
-            int rem = n % 2;// remainder
+            int rem = n % 2;// remainder 
             binNum = binNum + (rem * (int) Math.pow(10, pow));
-            //binNum = binNum + rem* 10^n 
+            //binNum = binNum + rem* 10^n (R to L)
 
             pow++;
             n = n / 2;// n=decimal number

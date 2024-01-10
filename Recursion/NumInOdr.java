@@ -1,29 +1,26 @@
 package Recursion;
 
-//print numbers from 5 to 1 DECREASING ORDER
-public class PrintNumbdeOdr {
+//print number from 1 to 5 INCREASING ORDER
+public class NumInOdr {
     public static void printNum(int n) {
-
         // BASE CASE
-        if (n == 0) {
+        if (n == 6) {
             return;
         }
 
         // print
         System.out.println(n);
 
-        // RECURSION
+        // RECUSRION
         //output
-        printNum(n - 1);
-
+        printNum(n + 1);
     }
 
     public static void main(String[] args) {
-
         // numbers
-        int n = 5;
+        int n = 1;
 
-        //function call
-        printNum(n); // n=5
+        // function call
+        printNum(n);
     }
 }
