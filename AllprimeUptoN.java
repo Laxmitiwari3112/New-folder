@@ -1,4 +1,4 @@
-package Function;
+//package Function;
 
 import java.util.*;
 
@@ -7,26 +7,28 @@ public class AllprimeUptoN {
 
     public static void PrimesInRange(int n) {
         for (int i = 2; i <= n; i++) {
-            if (isPrime(i)) {
-                System.out.println(i + " ");// true
+            if (n%i==0) {
+                System.out.print("");// true
             }
+            else{System.out.println(i+" ");// true
+        }
         }
         System.out.println();
     }
 
-    private static boolean isPrime(int i) {
-        // return false;
-        int n;
-        if (n <= 1) {
-            return false;
-        }
-        for (int i = 2; i <= (int) Math.sqrt(n); i++) {
-            if (n % i == 0) {
-                return false;
-            }
-        }
-        return true;
-    }
+    // private static boolean isPrime(int i) {
+    //     // return false;
+    //     int n;
+    //     if (n <= 1) {
+    //         return false;
+    //     }
+    //     for (int i = 2; i <= (int) Math.sqrt(n); i++) {
+    //         if (n % i == 0) {
+    //             return false;
+    //         }
+    //     }
+    //     return true;
+    // }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
