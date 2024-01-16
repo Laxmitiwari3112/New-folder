@@ -15,7 +15,7 @@ public class CompareStrings {
 
         //if we use name1==name2 then sometimes gives incorrect output
 
-        //we cane use name1.compareTO(name2)==0 or name1.equals(name2)
+        //we use name1.compareTO(name2)==0 or name1.equals(name2)
 
 
         

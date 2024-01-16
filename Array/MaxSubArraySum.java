@@ -1,6 +1,7 @@
 package Array;
 
-//Maximum sub array sum
+// BRUTE FORCE : Maximum sub array sum
+// time complexity  O(n^3) 
 public class MaxSubArraySum {
     public static void SubarraySum(int number[]){
         //int ts=0;//total subarrays
