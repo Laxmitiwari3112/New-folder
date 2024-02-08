@@ -7,10 +7,10 @@ public class AllprimeUptoN {
 
     public static void PrimesInRange(int n) {
         for (int i = 2; i <= n; i++) {
-            if (n%i==0) {
-                System.out.print("");// true
+            if (n%n==0&&n%i!=0) {
+                System.out.print(i+" ");// true
             }
-            else{System.out.println(i+" ");// true
+            else{System.out.print("");// true
         }
         }
         System.out.println();

@@ -25,7 +25,7 @@ public class Mergesort {
     }
 
     public static void merge(int arr[], int si, int ei, int mid) {
-        int temp[] = new int[ei - si + 1];// temp arr
+        int temp[] = new int[ei - si + 1];// temp arr[size]
         int i = si;// iterator left part
         int j = mid + 1;// iterator right part
         int k = 0;// iterator for temp array
