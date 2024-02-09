@@ -1,4 +1,4 @@
-package OOPS;
+
 public class Visibility {
     
     public static void main(String[] args) {
