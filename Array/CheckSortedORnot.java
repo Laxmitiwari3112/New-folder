@@ -1,4 +1,5 @@
 package Array;
+
 import java.util.*;
 
 // create  array by user and check sorted or not
@@ -23,14 +24,21 @@ public class CheckSortedORnot {
 
         // check ascending or not
         boolean isAscending = true;
+        boolean isDescending = true;
         for (int i = 1; i < number.length - 1; i++) {
 
             if (number[i] > number[i + 1]) {
                 // this is fpr ascending
                 isAscending = false;
             }
+            if (number[i] < number[i + 1]) {
+                isDescending = false;
+            }
         }
 
+        if (isDescending) {
+            System.out.println("The Array is in sorted descending order");
+        }
         if (isAscending) {
             System.out.println("The Array is in sorted ascending order");
         } else {
