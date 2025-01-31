@@ -7,11 +7,11 @@ public class AllprimeUptoN {
 
     public static void PrimesInRange(int n) {
         for (int i = 2; i <= n; i++) {
-            if (n%n==0&&n%i!=0) {
-                System.out.print(i+" ");// true
+            if (n % n == 0 && n % i != 0) {
+                System.out.print(i + " ");// true
+            } else {
+                System.out.print("");// true
             }
-            else{System.out.print("");// true
-        }
         }
         System.out.println();
     }
@@ -29,7 +29,6 @@ public class AllprimeUptoN {
     //     }
     //     return true;
     // }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter term n=");

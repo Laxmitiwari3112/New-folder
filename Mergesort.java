@@ -58,7 +58,7 @@ public class Mergesort {
     public static void main(String[] args) {
 
         // array
-        int arr[] = { 6, 3, 9, 5, 2, 8 };
+        int arr[] = {6, 3, 9, 5, 2, 8};
 
         System.out.print("Sorted array= ");
 

@@ -12,6 +12,7 @@ public class GetterSetter {
 }
 
 class Pen {
+
     // property if pen
     private String Color;
     private int Tip;
