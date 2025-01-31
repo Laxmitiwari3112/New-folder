@@ -126,7 +126,7 @@ public class Addfirst {
 
         list.deleteFirst();
         list.printList();
-        
+
         System.out.println(list.getSize());
 
         list.deleteLast();

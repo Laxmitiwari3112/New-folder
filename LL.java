@@ -1,10 +1,9 @@
 
-
 import java.util.LinkedList;
 
 // package Linkedlist;
-
 public class LL {
+
     public static void main(String[] args) {
         LinkedList<String> list = new LinkedList<String>();
 
@@ -22,7 +21,6 @@ public class LL {
         System.out.println(list);
 
         // System.out.println(list.size());
-
         // // traverse
         // for(int i=0;i<list.size();i++){
         //     System.out.print(list.get(i) +" -> ");
